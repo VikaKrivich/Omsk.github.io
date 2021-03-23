@@ -1,0 +1,507 @@
+body{
+	background-color:#B4B4B4;
+}
+h1 {
+	color:#D49256;
+	text-align:center;
+}
+#container {
+	background-color:#B4B4B4;
+	height:835px;
+	width:75%;
+	margin:0 auto;
+	min-width:900px;
+	max-width:900px;
+	border-left:2px solid black;
+	border-right:2px solid black;
+}
+#header {
+	height:94px;
+	background-image:url(header.jpg);
+	width:100%;
+	float:left;
+}
+#content {
+	height:498px;
+	width:100%;
+	float:left;
+}
+#navigation {
+	width:100%;
+	height:60px;
+	float:left;
+}
+#facts{
+	width:100%;
+	height:125px;
+	float:left;	
+}
+.q{
+	font-size:16pt;
+}
+#fact1{
+	font-size:14pt;
+	margin-left:5%;
+	margin-right:5%;
+}
+#fact2{
+	font-size:14pt;
+	margin-left:5%;
+	margin-right:5%;
+}
+#fact3{
+	font-size:14pt;
+	margin-left:5%;
+	margin-right:5%;
+}
+#fact4{
+	font-size:14pt;
+	margin-left:5%;
+	margin-right:5%;
+}
+#fact5{
+	font-size:14pt;
+	margin-left:5%;
+	margin-right:5%;
+}
+#fact6{
+	font-size:14pt;
+	margin-left:5%;
+	margin-right:5%;
+}
+#fact7{
+	font-size:14pt;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#footer {
+	width:100%;
+	height:51px;
+	float:left;
+	margin-left:5%;
+	font-size:80%;
+}
+::-webkit-scrollbar-button {
+background-repeat:no-repeat;
+width:3px;
+}
+
+::-webkit-scrollbar-track {
+-webkit-border-radius: 5px;
+border-radius: 5px;
+background-color:#B4B4B4;
+border:2px #323232 solid;
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 5px;
+border-radius: 5px;
+background-color:#787878;
+border-left:2px #323232 solid;
+border-right:2px #323232 solid;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+::-webkit-scrollbar{
+width: 12px;
+}
+div.map {
+	float:left;
+	width:44%;
+	border-left:2px solid black;
+	height:100%;
+}
+div.photo {
+	display:block;
+	width:280px;
+	margin:1%;
+}
+img.photoo {
+	display:block;
+	width:280px;
+	margin:0 auto;
+}
+hr{
+	width:90%;
+	height:2px;
+	background:black;
+}
+
+div.iconn {
+	position:relative;
+	width:60%;
+	margin:0 auto;
+	margin-top:10px;
+}
+div.menu {
+	font-size:120%;
+	text-align:center;
+	float:left;
+	width:31%;
+	margin:1%;
+}
+div.navig {
+	margin:0 auto;
+	width:90%;
+	height:80%;
+}
+
+#container>div{
+	float:left;
+}
+img.oblast {
+	width:90%;
+	height:45%;
+	display:block;
+	margin:0 auto;
+}
+img.lake {
+	width:90%;
+	height:45%;
+	display:block;
+	margin:0 auto;
+}
+div.iconn>img:hover{
+	border:solid black 1px;
+}
+#lakeebeyty {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#ebeyty {
+	width:16px;
+	position:absolute;
+	left:44px;
+	top:325px;
+}	
+#cheredovoe{
+	width:16px;
+	position:absolute;
+	left:138px;
+	top:285px;
+}
+#chertaly{
+	width:16px;
+	position:absolute;
+	left:100px;
+	top:182px;
+}
+#ik{
+	width:16px;
+	position:absolute;
+	left:48px;
+	top:205px;
+}
+#tenis{
+	width:16px;
+	position:absolute;
+	left:66px;
+	top:188px;
+}
+#saltaim{
+	width:16px;
+	position:absolute;
+	left:58px;
+	top:197px;
+}
+
+#karpatnik{
+	width:16px;
+	position:absolute;
+	left:38px;
+	top:288px;
+}
+#ulzhay{
+	width:16px;
+	position:absolute;
+	left:200px;
+	top:380px;
+}
+#shaitan{
+	width:16px;
+	position:absolute;
+	left:200px;
+	top:187px;
+}
+#lenevo{
+	width:16px;
+	position:absolute;
+	left:235px;
+	top:182px;
+	
+}
+#karer{
+	width:16px;
+	position:absolute;
+	left:120px;
+	top:294px;
+}
+#bird {
+	width:16px;
+	position:absolute;
+	left:117px;
+	top:277px;
+}
+#big {
+	width:16px;
+	position:absolute;
+	left:175px;
+	top:225px;
+}
+#ostrich {
+	width:16px;
+	position:absolute;
+	left:138px;
+	top:320px;
+}
+
+#uut {
+	width:16px;
+	position:absolute;
+	left:60px;
+	top:210px;
+}
+#germes {
+	width:16px;
+	position:absolute;
+	left:90px;
+	top:210px;
+}
+#cherlack {
+	width:16px;
+	position:absolute;
+	left:190px;
+	top:365px;
+}
+#turist {
+	width:16px;
+	position:absolute;
+	left:128px;
+	top:275px;
+}
+#okun {
+	width:16px;
+	position:absolute;
+	left:180px;
+	top:180px;
+}
+#belatara {
+	width:16px;
+	position:absolute;
+	left:198px;
+	top:168px;
+}
+
+
+#lakeshaitan {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#lakelenevo {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#lakekarer {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#lakesaltaim {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#lakecheredovoe {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#lakechertaly {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#lakeik {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#laketenis {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#lakeirtysh {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#lakekarpatnik {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#lakeulzhay {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#text {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:block;
+}
+#birdd {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#bigg {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#ostrichh {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#uutt {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#germess {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#okunn {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#cherkackk {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#turistt {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+#belataraa {
+	float:left;
+	width:45%;
+	padding-left:4%;
+	padding-right:4%;
+	height:100%;
+	display:none;
+}
+		
+p.web{
+	font-size:14pt;
+}
+div h2 {
+	text-align:center;
+	
+}
+div p {
+	text-align:center;
+}
+a:visited{
+	color:black;
+}
+a:link{
+	color:black;
+}
+a:hover{
+	color:#D49256;
+	text-decoration:none;
+}
+a{
+	text-decoration:underline;
+}
+iframe{
+	display:block;
+	width:90%;
+	height:380px;
+	margin:0 auto;
+	margin-top:10px;
+}
+iframe.ccherlack{
+	display:block;
+	width:90%;
+	height:400px;
+	margin:0 auto;
+	margin-top:10px;
+}
